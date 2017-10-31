@@ -1,0 +1,45 @@
+/*!
+Theme Name: Green.er
+Theme URI:
+Author: Tijl De Vis
+Author URI:
+Description: Theme for the greener fund website
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# 1. Base
+	## normalize
+	## start
+	## typography
+	## lists
+# 2. Layout
+# 3. Module
+# 4. State
+--------------------------------------------------------------*/
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+@import "1. Base/base";
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+@import "2. Layout/layout";
+
+/*--------------------------------------------------------------
+# Module
+--------------------------------------------------------------*/
+@import "3. Module/module";
+
+/*--------------------------------------------------------------
+# State
+--------------------------------------------------------------*/
+@import "4. State/state";

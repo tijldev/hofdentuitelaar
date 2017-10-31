@@ -1,0 +1,78 @@
+$font__main: sans-serif;
+$font__line-height-body: 1.5;
+$font__line-height-pre: 1.6;
+
+
+@font-face {
+  font-family: 'tccsansbold';
+  src: url('font/newTCCsans_family/tccsans-bold-webfont.woff2') format('woff2'),
+  url('font/newTCCsans_family/tccsans-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'tccsansbold_italic';
+  src: url('font/newTCCsans_family/tccsans-bolditalic-webfont.woff2') format('woff2'),
+  url('font/newTCCsans_family/tccsans-bolditalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'tccsanslight';
+  src: url('font/newTCCsans_family/tccsans-light-webfont.woff2') format('woff2'),
+  url('font/newTCCsans_family/tccsans-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'tccsanslight_italic';
+  src: url('font/newTCCsans_family/tccsans-lightitalic-webfont.woff2') format('woff2'),
+  url('font/newTCCsans_family/tccsans-lightitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'tccsansmedium';
+  src: url('font/newTCCsans_family/tccsans-medium-webfont.woff2') format('woff2'),
+  url('font/newTCCsans_family/tccsans-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'tccsansmedium_italic';
+  src: url('font/newTCCsans_family/tccsans-mediumitalic-webfont.woff2') format('woff2'),
+  url('font/newTCCsans_family/tccsans-mediumitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'tccsansnormal';
+  src: url('font/newTCCsans_family/tccsans-normal-webfont.woff2') format('woff2'),
+  url('font/newTCCsans_family/tccsans-normal-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'tccsansnormal_italic';
+  src: url('font/newTCCsans_family/tccsans-normalitalic-webfont.woff2') format('woff2'),
+  url('font/newTCCsans_family/tccsans-normalitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

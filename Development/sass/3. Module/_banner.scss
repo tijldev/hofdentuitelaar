@@ -1,0 +1,53 @@
+.banner {
+  height: 100vh;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.banner__background {
+  background: url('img/hof.jpg') no-repeat center;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  filter: brightness(0.4);
+}
+
+.banner__title {
+  font-size: 5rem;
+  font-family: tccsansbold, sans-serif;
+  color: white;
+  text-align: center;
+  margin: 0;
+
+  flex: 0 1 100%;
+}
+
+.banner__location {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  font-family: tccsansnormal, sans-serif;
+
+  flex: 0 1 100%;
+}
+
+.banner__subtitle {
+  font-family: tccsansnormal, sans-serif;
+  font-size: 3rem;
+}
+
+.banner__openingsuren {
+  font-family: tccsansnormal, sans-serif;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  flex: 0 1 100%;
+  margin-top: 3rem;
+}

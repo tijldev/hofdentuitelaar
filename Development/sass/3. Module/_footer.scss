@@ -1,0 +1,22 @@
+.footer {
+  background-color: $color-dark;
+  overflow: auto;
+
+  p {
+    line-height: 2.8rem;
+    color: $color-broken-white;
+    a {
+      text-decoration: none;
+      color: white;
+      border-bottom: 1px dotted white;
+    }
+  }
+
+
+  .demakers {
+    font-family: tccsansnormal, sans-serif;
+    font-size: 2rem;
+    padding: 1rem 3rem;
+  }
+
+}

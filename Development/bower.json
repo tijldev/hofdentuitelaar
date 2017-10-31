@@ -1,0 +1,21 @@
+{
+  "name": "Green.er",
+  "description": "Onepager voor Green.er, een initiatie van Recytyre",
+  "main": "index.html",
+  "authors": [
+    "Tijl De Vis <tijldevis@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "gsap": "^1.20.3",
+    "components-font-awesome": "^4.7.0",
+    "scrollmagic": "^2.0.5"
+  }
+}

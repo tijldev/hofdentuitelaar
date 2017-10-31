@@ -1,0 +1,52 @@
+/**
+ * Generic styles
+ *
+ * 
+ *
+ */
+
+/* ===========================================
+   Custom reset
+   =========================================== */
+
+html {
+	font-size: 0.625em;  
+}
+
+* {
+	margin: 0; 
+	padding: 0; 
+}
+
+fieldset {
+	border: 0;
+}
+
+/* ===========================================
+   Helpers
+   =========================================== */
+
+.structural {
+	position: absolute;
+	left: -9999px;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.ir {
+	display: block; /* only block level elements can have width /height */
+	white-space: nowrap; /*single line of text */
+	text-indent: 100%; /*push text outside*/
+	overflow: hidden; /*hide text outside*/
+	background-size: 100% 100%; /*stretch background image */
+}
+
+.hidden {
+	position: absolute !important;
+	visibility: hidden !important;
+	z-index: -1 !important;
+}
